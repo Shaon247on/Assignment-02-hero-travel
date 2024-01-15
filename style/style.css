@@ -221,6 +221,156 @@ main {
 
 /* end of popular section */
 
+/* start of destination section */
+.destination-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.destination-text-section {}
+
+.destination-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.destination-description {
+    max-width: 620px;
+    margin: 0px auto;
+    margin-bottom: 45px;
+}
+
+.destination-image-section {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.destination-image-section>div>div>h4{
+    font-size: 1.70rem;
+    font-weight: 800;
+    color: white;  
+     
+}
+
+.image-1{
+    height: 300px;
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-2{
+    height: 300px;
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-3{
+    height: 300px;
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-4{
+    height: 300px;
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-5{
+    height: 300px;
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-6{
+    height: 300px;
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-7{
+    height: 300px;
+    gap: 20px;
+    background-image: url(../images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.destination-row-1 {
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5vw;
+}
+
+.destination-row-2 {
+    display: grid;
+    grid-template-columns: 25.6vw 32.6vw 18.6vw;
+    gap: 1.5vw;
+    margin-top: 20px;
+     
+}
+
+.destination-row-3 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 32.3vw 46.3vw;
+    gap: 1.5vw;
+   
+}
+
+
 
 
 
