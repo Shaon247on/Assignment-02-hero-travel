@@ -240,12 +240,6 @@ main {
     margin-bottom: 45px;
 }
 
-.destination-image-section {
-    display: flex;
-    flex-direction: column;
-  
-}
-
 .destination-image-section>div>div>h4{
     font-size: 1.70rem;
     font-weight: 800;
@@ -508,6 +502,24 @@ main {
         margin-top: 30px;
         width: 305px;
         height: 310px;
+    }
+    .destination-row-1{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .destination-row-2{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .destination-row-3{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .destination-image-section{
+        margin-top: 0px;
+    }
+    .destination-text-section{
+        margin-bottom: 15px;
     }
 
 }
