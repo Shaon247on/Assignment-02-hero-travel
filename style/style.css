@@ -5,6 +5,7 @@
     --black-color: #131318;
     --RGB-color: rgba(19, 19, 24, 0.70);
     --gray-color: #5A5A5D;
+    --hover-button-color: #c58402;
 
 }
 
@@ -147,8 +148,8 @@ header {
     border-radius: 5px;
 }
 
-.pry-button:hover{
-    background-color:#c58402;
+.pry-button:hover {
+    background-color: var(--hover-button-color);
 }
 
 .pry-button>h6 {
@@ -159,13 +160,72 @@ header {
 
 /* end of banner section */
 
+/* end of header section */
 
-.trying-images{
-    width: 80%;
-    height: 400px;
-    /* background: url('../images/Group\ 40.png'); */
+/* start of main section */
+
+main {
+    margin: 50px 9vw;
 }
 
+/* start of popular section */
+
+.popular-section {
+    display: flex;
+    gap: 3vw;
+    margin-top: 80px;
+
+}
+
+.popular-text-section {}
+
+.popular-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--black-color);
+}
+
+.popular-description {
+    color: var(--RGB-color);
+}
+
+.popular-points-container {
+    color: var(--RGB-color);
+}
+
+.popular-details {
+    color: var(--gray-color);
+}
+
+.popular-button {
+    width: 165px;
+    height: 49px;
+    background-color: var(--main-color);
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.popular-button:hover {
+    background-color: var(--hover-button-color);
+}
+
+.popular-image-section {}
+
+.popular-image {
+    width: 510px;
+    height: 520px;
+}
+
+/* end of popular section */
+
+
+
+
+
+/* Scroll down to for the responsive codes */
 
 
 
@@ -174,6 +234,24 @@ header {
 
 
 
+/* Scroll down to for the responsive codes */
+
+
+
+
+
+
+
+
+/* Scroll down to for the responsive codes */
+
+
+
+
+
+
+
+/* Scroll down to for the responsive codes */
 
 
 
@@ -249,11 +327,12 @@ header {
         width: 230px;
         height: 32px;
     }
+
     .from-dropdown {
         padding: 10px;
     }
-   
-    .where-go{
+
+    .where-go {
         padding: 10px;
     }
 
@@ -262,9 +341,23 @@ header {
         height: 52px;
     }
 
-    .pry-button{
+    .pry-button {
         width: 250px;
         height: 52px;
+    }
+
+    .popular-section {
+        flex-direction: column;
+    }
+
+    .popular-text-section {
+        width: 300px;
+    }
+
+    .popular-image {
+        margin-top: 30px;
+        width: 305px;
+        height: 310px;
     }
 
 }
