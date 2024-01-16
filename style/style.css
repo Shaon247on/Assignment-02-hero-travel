@@ -395,9 +395,10 @@ main {
 
 .choos-image-container-2 {
     margin-top: 1.5vw;
-    
+
 }
-.choose-card-bottom{
+
+.choose-card-bottom {
     margin: 0px auto;
     width: 40.996vw;
     height: 200px;
@@ -412,6 +413,66 @@ main {
     padding: 30px;
 }
 
+/* end of choose section */
+
+
+
+
+/* start of save section */
+
+.save-section {
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+.save-form-section {}
+
+.save-title {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--black-color);
+}
+
+.save-description {
+    color: var(--gray-color);
+    max-width: 340px;
+}
+
+.save-form-container {
+    display: block;
+    /* flex-direction: column; */
+}
+
+.save-form-container>input {
+    width: 393px;
+    height: 52px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+
+.your {}
+
+.save-button {
+    width: 393px;
+    height: 52px;
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.save-button:hover{
+    background-color: var(--hover-button-color);
+}
+.save-image-container {}
+
+.save-image {}
+
+.save-tag {}
 
 
 
@@ -584,10 +645,10 @@ main {
         height: 290px;
     }
 
-    .choose-card-bottom{        
+    .choose-card-bottom {
         width: 80%;
         height: 290px;
-        margin: 6px 20px 20px 0px ;
+        margin: 6px 20px 20px 0px;
     }
 
 }
