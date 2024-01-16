@@ -552,7 +552,7 @@ main {
 
 .lost-description {
     color: var(--gray-color);
-    max-width: 35vw;
+    width: 35vw;
 }
 
 .lost-text-section>ul {
@@ -580,13 +580,13 @@ main {
 
 .lost-image-section {
     margin-bottom: 0px;
-    max-width: 46vw;
+    width: 46vw;
     height: 25vw;
     position: relative;
 }
 
 .lost-image {
-    max-width: 46vw;
+    width: 46vw;
     height: 25vw;
     position: relative;
 }
@@ -870,4 +870,32 @@ main {
     .lost-section {
         flex-direction: column;
     }
+
+    .lost-description {
+        width: 335px;
+    }
+
+    .lost-description>ul {
+        margin-bottom: 10px;
+    }
+
+    .lost-button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .lost-image-section {
+        width: 78vw;
+        height: 58vw;
+        border: 2px solid red;
+    }
+
+    .lost-image{
+        width: 100%;
+        height: 58vw;
+    }
+
+
+
+
 }
