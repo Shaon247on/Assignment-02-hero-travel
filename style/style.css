@@ -494,8 +494,8 @@ main {
 }
 
 .save-image-container {
-    width: 48.316vw;
-    height: 29.283vw;
+    width: 44vw;
+    height: 27vw;
     position: relative;
 }
 
@@ -513,8 +513,8 @@ main {
     background-color: var(--main-color);
     border-radius: 15px;
     position: absolute;
-    right: 6px;
-    bottom: 42.5px;
+    right: 0.439vw;
+    bottom: 5.8vh;
 
 }
 
@@ -580,14 +580,15 @@ main {
 
 .lost-image-section {
     margin-bottom: 0px;
-    max-width: 630px;
-    height: 351px;
+    max-width: 46vw;
+    height: 25vw;
     position: relative;
 }
 
 .lost-image {
-    width: 630px;
-    height: 351px;
+    max-width: 46vw;
+    height: 25vw;
+    position: relative;
 }
 
 .lost-image-title {
@@ -826,7 +827,7 @@ main {
     }
 
     .save-form-section {
-       margin-bottom: 15px;
+        margin-bottom: 15px;
 
     }
 
@@ -840,27 +841,29 @@ main {
     }
 
     .save-image-container {
-        width: 317px;
-        height: 300px;
-        border: 3px solid aqua;
+        width: 78vw;
+        height: 72.7vw;
     }
 
     .save-image {
         width: 100%;
         height: 300px;
     }
-    .save-tag{
+
+    .save-tag {
         width: 70%;
-        height: 70px; 
+        height: 70px;
         padding-bottom: 30px;
-        bottom: 28px;
+        right: 1.5vw;
+        bottom: 3.5vh;
 
     }
-    .website{
+
+    .website {
         font-size: 1rem;
     }
 
-    .up-to{
+    .up-to {
         font-size: 1.4rem;
     }
 
