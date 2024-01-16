@@ -6,6 +6,7 @@
     --RGB-color: rgba(19, 19, 24, 0.70);
     --gray-color: #5A5A5D;
     --hover-button-color: #c58402;
+    --card-color:rgba(221, 206, 162, 0.379);
 
 }
 
@@ -165,7 +166,7 @@ header {
 /* start of main section */
 
 main {
-    margin: 50px 9vw;
+    margin: 50px 9vw 100px;
 }
 
 /* start of popular section */
@@ -432,6 +433,87 @@ main {
 
 /* end of choose section */
 
+/* start of inspiration section */
+
+.inspiration-card-section {
+    display: grid;
+    grid-template-columns: 40% 27% 27%;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.inspiration-text-section{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.inspiration-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--black-color);    
+}
+.more{
+    color: var(--main-color);
+}
+.inspiration-card-1 {
+    width: 450px;
+    height: 400px;
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/pexels-tim-durgan-4968457.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+}
+.inspiration-card-1>h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    margin: 0px;
+}
+
+.inspiration-card-1>p{
+    color:white;
+    font-size: 1.2rem;
+}
+
+
+.inspiration-card-2{
+    margin-left: 4vw;
+    width: 220px;
+    height: 400px;
+    padding: 20px;
+    background-color:var(--card-color);
+    border-radius: 7px;
+}
+
+.inspiration-card-3{
+    width: 220px;
+    height: 410px;
+    padding: 20px;
+    background-color: var(--card-color);
+    border-radius: 7px;
+}
+
+.inspiration-image {
+    width: 100%;
+    height: 60%;
+}
+
+.inspiration-card-title {
+    font-size: 1.4rem;
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.inspiration-description {
+    color: var(--gray-color);
+}
+
+
+
+
 
 
 
@@ -476,7 +558,7 @@ main {
 }
 
 
-.your {}
+
 
 .save-button {
     width: 28.770vw;
@@ -544,7 +626,7 @@ main {
 
 .lost-title {
     margin-top: 5px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--black-color);
     margin-bottom: 20px;
@@ -646,12 +728,60 @@ main {
 }
 
 .footer-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.footer-description {
+    margin: 0px auto;
+    width: 730px;
     text-align: center;
+    color: var(--gray-color);
+
 }
 
 .logo-section-bottom {
-    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8vw;
 }
+
+.logo-image-bottom {
+    width: 50px;
+    height: 56.008px;
+}
+
+.logo-text-bottom {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.bee-bottom {
+    color: var(--main-color);
+}
+
+.footer-image-section {
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-image-section>img{
+    width: 24px;
+}
+
+.footer-bottom {
+    margin: 100px auto;
+    text-align: center;
+    color: var(--black-color);
+}
+
 
 /* end of lost section */
 
@@ -826,14 +956,17 @@ main {
     .choos-image-container-1 {
         flex-direction: column;
         justify-content: center;
+        gap: 0px;
     }
 
     .choose-card {
+        margin-bottom: 0px;
         width: 80%;
         height: 290px;
     }
 
     .choose-card-bottom {
+        margin-top: 0px;
         width: 80%;
         height: 290px;
         margin: 6px 20px 20px 0px;
@@ -922,9 +1055,43 @@ main {
         left: 30px;
     }
 
-    .logo-image-bottom {
-        width: 40px;
-height: 46.673px;
+    .footer-description {
+        width: 287px;
     }
 
+    .footer-bottom {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .inspiration-card-section{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-content: center;
+    }
+     
+    .inspiration-card-1{
+        width: 280px;
+        margin: 20px auto 0px;
+    }
+
+    .inspiration-card-2{
+        width: 290px;
+        margin: 0px auto;
+    }
+
+
+    .inspiration-card-3{
+        width: 290px;
+        margin: 0px auto;
+    }
+
+    .inspiration-title{
+        font-size: 1.4rem;
+        width: 200px;
+        margin-bottom: 0px;
+    }
+    .more{
+        font-size: 1.2rem;
+    }
 }
