@@ -411,21 +411,22 @@ main {
 .choose-card {
     width: 40.996vw;
     height: 200px;
-    padding: 30px;    
+    padding: 30px;
 }
-.choose-card>h4{
+
+.choose-card>h4 {
     color: var(--black-color);
 }
 
-.choose-card>p{
+.choose-card>p {
     color: var(--gray-color);
 }
 
-.choose-card-bottom>h4{
+.choose-card-bottom>h4 {
     color: var(--black-color);
 }
 
-.choose-card-bottom>p{
+.choose-card-bottom>p {
     color: var(--gray-color);
 }
 
@@ -445,7 +446,7 @@ main {
 
 .save-form-section {
     border: 1px solid var(--main-color);
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 38px;
 }
 
@@ -513,13 +514,13 @@ main {
 
 }
 
-.website{
+.website {
     font-size: 1.4rem;
     font-weight: 300;
     color: white;
 }
 
-.up-to{
+.up-to {
     font-size: 2rem;
     font-weight: 800;
     color: white;
@@ -702,4 +703,35 @@ main {
         margin: 6px 20px 20px 0px;
     }
 
+    .save-section {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .save-form-section {
+        padding: 22px;
+
+    }
+
+    .save-title {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .save-button {
+        width: 243px;
+    }
+
+    .save-image-container {
+        width: 317px;
+        height: 300px;
+        border: 3px solid aqua;
+    }
+
+    .save-image {
+        width:150%;
+        overflow: hidden;
+        
+    }
 }
