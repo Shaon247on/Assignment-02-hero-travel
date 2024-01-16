@@ -593,7 +593,7 @@ main {
 
 .lost-image-title {
     margin: 0px;
-    max-width: 270px;
+    width: 270px;
     position: absolute;
     top: 159px;
     left: 180px;
@@ -887,7 +887,6 @@ main {
     .lost-image-section {
         width: 78vw;
         height: 58vw;
-        border: 2px solid red;
     }
 
     .lost-image{
@@ -895,7 +894,14 @@ main {
         height: 58vw;
     }
 
-
+    .lost-icon-5{
+        padding-right: 200px;
+    }
+    
+    .lost-image-title{
+        top: 89px;
+    left: 30px;
+    }
 
 
 }
