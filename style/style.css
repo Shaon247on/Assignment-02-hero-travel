@@ -645,6 +645,25 @@ main {
     left: 60px;
 }
 
+.footer-section {
+    text-align: center;
+}
+
+.logo-section-bottom {
+    margin: 0px auto;
+}
+
+/* end of lost section */
+
+/* end of main section */
+
+/* start of footer section */
+
+
+
+
+
+
 
 /* Scroll down to for the responsive codes */
 
@@ -889,19 +908,23 @@ main {
         height: 58vw;
     }
 
-    .lost-image{
+    .lost-image {
         width: 100%;
         height: 58vw;
     }
 
-    .lost-icon-5{
+    .lost-icon-5 {
         padding-right: 200px;
     }
-    
-    .lost-image-title{
+
+    .lost-image-title {
         top: 89px;
-    left: 30px;
+        left: 30px;
     }
 
+    .logo-image-bottom {
+        width: 40px;
+height: 46.673px;
+    }
 
 }
