@@ -467,7 +467,7 @@ main {
 }
 
 .save-form-container>input {
-    width: 393px;
+    width: 28.770vw;
     height: 52px;
     border: none;
     outline: none;
@@ -479,7 +479,7 @@ main {
 .your {}
 
 .save-button {
-    width: 393px;
+    width: 28.770vw;
     height: 52px;
     border: none;
     background-color: var(--main-color);
@@ -494,39 +494,155 @@ main {
 }
 
 .save-image-container {
+    width: 48.316vw;
+    height: 29.283vw;
     position: relative;
 }
 
 .save-image {
     width: 100%;
+    /* max-height: 100%; */
+
 }
 
 .save-tag {
-    width: 300px;
-    height: 110px;
+    width: 45.45%;
+    max-height: 27.5%;
     text-align: center;
     transform: rotate(-19.628deg);
     background-color: var(--main-color);
     border-radius: 15px;
     position: absolute;
-    right: 0.4vw;
-    bottom: 9vh;
+    right: 6px;
+    bottom: 42.5px;
 
 }
 
 .website {
+    width: 100%;
     font-size: 1.4rem;
     font-weight: 300;
     color: white;
 }
 
 .up-to {
+    width: 100%;
     font-size: 2rem;
     font-weight: 800;
     color: white;
 }
 
+.lost-section {
+    margin-top: 80px;
+    display: flex;
+    gap: 1.6vw;
+}
 
+/* end of save section */
+
+/* start of lost section */
+
+.lost-title {
+    margin-top: 5px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+
+.lost-description {
+    color: var(--gray-color);
+    max-width: 35vw;
+}
+
+.lost-text-section>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.lost-button {
+    max-width: 174px;
+    height: 52px;
+    margin-top: 40px;
+    padding: 10px 35px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.lost-button:hover {
+    background-color: var(--hover-button-color);
+}
+
+.lost-image-section {
+    margin-bottom: 0px;
+    max-width: 630px;
+    height: 351px;
+    position: relative;
+}
+
+.lost-image {
+    width: 630px;
+    height: 351px;
+}
+
+.lost-image-title {
+    margin: 0px;
+    max-width: 270px;
+    position: absolute;
+    top: 159px;
+    left: 180px;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.lost-icon-1 {
+    position: absolute;
+    bottom: 35px;
+    right: 27px;
+}
+
+.lost-icon-2 {
+    position: absolute;
+    bottom: 35px;
+    left: 25px;
+}
+
+.lost-icon-3 {
+    position: absolute;
+    bottom: 35px;
+    right: 63px;
+}
+
+.lost-icon-4 {
+    position: absolute;
+    bottom: 35px;
+    right: 98px;
+}
+
+.lost-icon-5 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding-right: 500px;
+    border-radius: 5px;
+    background-color: var(--gray-color);
+
+}
+
+.lost-icon-6 {
+    margin: 0px;
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+}
 
 
 /* Scroll down to for the responsive codes */
@@ -710,7 +826,7 @@ main {
     }
 
     .save-form-section {
-        padding: 22px;
+       margin-bottom: 15px;
 
     }
 
@@ -730,8 +846,25 @@ main {
     }
 
     .save-image {
-        width:150%;
-        overflow: hidden;
-        
+        width: 100%;
+        height: 300px;
+    }
+    .save-tag{
+        width: 70%;
+        height: 70px; 
+        padding-bottom: 30px;
+        bottom: 28px;
+
+    }
+    .website{
+        font-size: 1rem;
+    }
+
+    .up-to{
+        font-size: 1.4rem;
+    }
+
+    .lost-section {
+        flex-direction: column;
     }
 }
