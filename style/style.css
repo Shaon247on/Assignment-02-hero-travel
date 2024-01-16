@@ -240,14 +240,14 @@ main {
     margin-bottom: 45px;
 }
 
-.destination-image-section>div>div>h4{
+.destination-image-section>div>div>h4 {
     font-size: 1.70rem;
     font-weight: 800;
-    color: white;  
-     
+    color: white;
+
 }
 
-.image-1{
+.image-1 {
     height: 300px;
     gap: 20px;
     background-image: url(../images/Rectangle\ 5.png);
@@ -260,7 +260,7 @@ main {
     justify-content: center;
 }
 
-.image-2{
+.image-2 {
     height: 300px;
     gap: 20px;
     background-image: url(../images/Rectangle\ 8.png);
@@ -273,7 +273,7 @@ main {
     justify-content: center;
 }
 
-.image-3{
+.image-3 {
     height: 300px;
     gap: 20px;
     background-image: url(../images/Rectangle\ 6.png);
@@ -286,7 +286,7 @@ main {
     justify-content: center;
 }
 
-.image-4{
+.image-4 {
     height: 300px;
     gap: 20px;
     background-image: url(../images/Rectangle\ 7.png);
@@ -299,7 +299,7 @@ main {
     justify-content: center;
 }
 
-.image-5{
+.image-5 {
     height: 300px;
     gap: 20px;
     background-image: url(../images/Rectangle\ 9.png);
@@ -312,7 +312,7 @@ main {
     justify-content: center;
 }
 
-.image-6{
+.image-6 {
     height: 300px;
     gap: 20px;
     background-image: url(../images/Rectangle\ 11.png);
@@ -325,7 +325,7 @@ main {
     justify-content: center;
 }
 
-.image-7{
+.image-7 {
     height: 300px;
     gap: 20px;
     background-image: url(../images/Rectangle\ 10.png);
@@ -343,7 +343,7 @@ main {
 
 
 .destination-row-1 {
-    display: grid;    
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5vw;
 }
@@ -353,7 +353,7 @@ main {
     grid-template-columns: 25.6vw 32.6vw 18.6vw;
     gap: 1.5vw;
     margin-top: 20px;
-     
+
 }
 
 .destination-row-3 {
@@ -361,9 +361,56 @@ main {
     display: grid;
     grid-template-columns: 32.3vw 46.3vw;
     gap: 1.5vw;
-   
+
 }
 
+/* end of destination section */
+
+/* start of choose section */
+.choos-section {
+    margin-top: 100px;
+}
+
+.choos-text-section {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.choos-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.choos-description {
+    max-width: 630px;
+    margin: 24px auto;
+}
+
+.choos-image-container-1 {
+    margin-bottom: 0px;
+    display: flex;
+    gap: 1.5vw;
+}
+
+.choos-image-container-2 {
+    margin-top: 1.5vw;
+    
+}
+.choose-card-bottom{
+    margin: 0px auto;
+    width: 40.996vw;
+    height: 200px;
+    padding: 30px;
+
+}
+
+
+.choose-card {
+    width: 40.996vw;
+    height: 200px;
+    padding: 30px;
+}
 
 
 
@@ -503,23 +550,44 @@ main {
         width: 305px;
         height: 310px;
     }
-    .destination-row-1{
+
+    .destination-row-1 {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-    .destination-row-2{
+
+    .destination-row-2 {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-    .destination-row-3{
+
+    .destination-row-3 {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-    .destination-image-section{
+
+    .destination-image-section {
         margin-top: 0px;
     }
-    .destination-text-section{
+
+    .destination-text-section {
         margin-bottom: 15px;
+    }
+
+    .choos-image-container-1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .choose-card {
+        width: 80%;
+        height: 290px;
+    }
+
+    .choose-card-bottom{        
+        width: 80%;
+        height: 290px;
+        margin: 6px 20px 20px 0px ;
     }
 
 }
