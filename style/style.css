@@ -403,6 +403,7 @@ main {
     width: 40.996vw;
     height: 200px;
     padding: 30px;
+    color: var(--gray-color);
 
 }
 
@@ -410,7 +411,22 @@ main {
 .choose-card {
     width: 40.996vw;
     height: 200px;
-    padding: 30px;
+    padding: 30px;    
+}
+.choose-card>h4{
+    color: var(--black-color);
+}
+
+.choose-card>p{
+    color: var(--gray-color);
+}
+
+.choose-card-bottom>h4{
+    color: var(--black-color);
+}
+
+.choose-card-bottom>p{
+    color: var(--gray-color);
 }
 
 /* end of choose section */
@@ -421,11 +437,17 @@ main {
 /* start of save section */
 
 .save-section {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 42% 58%;
+    gap: 1.5vw;
 }
 
-.save-form-section {}
+.save-form-section {
+    border: 1px solid var(--main-color);
+    border-radius: 15px;
+    padding: 38px;
+}
 
 .save-title {
     font-size: 1.7rem;
@@ -463,16 +485,45 @@ main {
     border-radius: 5px;
     font-size: 1.4rem;
     font-weight: 700;
+    color: white;
 }
 
-.save-button:hover{
+.save-button:hover {
     background-color: var(--hover-button-color);
 }
-.save-image-container {}
 
-.save-image {}
+.save-image-container {
+    position: relative;
+}
 
-.save-tag {}
+.save-image {
+    width: 100%;
+}
+
+.save-tag {
+    width: 300px;
+    height: 110px;
+    text-align: center;
+    transform: rotate(-19.628deg);
+    background-color: var(--main-color);
+    border-radius: 15px;
+    position: absolute;
+    right: 0.4vw;
+    bottom: 9vh;
+
+}
+
+.website{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: white;
+}
+
+.up-to{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
 
 
 
