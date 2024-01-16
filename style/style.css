@@ -6,7 +6,7 @@
     --RGB-color: rgba(19, 19, 24, 0.70);
     --gray-color: #5A5A5D;
     --hover-button-color: #c58402;
-    --card-color:rgba(221, 206, 162, 0.379);
+    --card-color: rgba(221, 206, 162, 0.241);
 
 }
 
@@ -86,10 +86,8 @@ header {
     height: 475px;
     color: #FFF;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Banner.png');
-    /* background-size: 100%; */
     background-size: cover;
     background-position: center;
-    /* background-attachment:fixed ; */
     text-align: center;
     vertical-align: middle;
 }
@@ -141,7 +139,6 @@ header {
     justify-content: center;
     gap: 7px;
     align-items: center;
-    /* padding: 30px; */
     width: 12.079vw;
     height: 48px;
     border: none;
@@ -223,6 +220,7 @@ main {
 /* end of popular section */
 
 /* start of destination section */
+
 .destination-section {
     text-align: center;
     margin-top: 100px;
@@ -339,10 +337,6 @@ main {
     justify-content: center;
 }
 
-
-
-
-
 .destination-row-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -368,6 +362,7 @@ main {
 /* end of destination section */
 
 /* start of choose section */
+
 .choos-section {
     margin-top: 100px;
 }
@@ -405,9 +400,7 @@ main {
     height: 200px;
     padding: 30px;
     color: var(--gray-color);
-
 }
-
 
 .choose-card {
     width: 40.996vw;
@@ -442,20 +435,23 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-.inspiration-text-section{
+
+.inspiration-text-section {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 
-.inspiration-title{
+.inspiration-title {
     font-size: 2.5rem;
     font-weight: 800;
-    color: var(--black-color);    
+    color: var(--black-color);
 }
-.more{
+
+.more {
     color: var(--main-color);
 }
+
 .inspiration-card-1 {
     width: 450px;
     height: 400px;
@@ -466,29 +462,30 @@ main {
     background-position: center;
     border-radius: 7px;
 }
-.inspiration-card-1>h3{
+
+.inspiration-card-1>h3 {
     font-size: 2.5rem;
     font-weight: 800;
     color: white;
     margin: 0px;
 }
 
-.inspiration-card-1>p{
-    color:white;
+.inspiration-card-1>p {
+    color: white;
     font-size: 1.2rem;
 }
 
 
-.inspiration-card-2{
+.inspiration-card-2 {
     margin-left: 4vw;
     width: 220px;
     height: 400px;
     padding: 20px;
-    background-color:var(--card-color);
+    background-color: var(--card-color);
     border-radius: 7px;
 }
 
-.inspiration-card-3{
+.inspiration-card-3 {
     width: 220px;
     height: 410px;
     padding: 20px;
@@ -511,11 +508,7 @@ main {
     color: var(--gray-color);
 }
 
-
-
-
-
-
+/* end of inspiration section */
 
 /* start of save section */
 
@@ -528,7 +521,7 @@ main {
 
 .save-form-section {
     border: 1px solid var(--main-color);
-    /* border-radius: 15px; */
+    border-radius: 15px;
     padding: 38px;
 }
 
@@ -545,7 +538,6 @@ main {
 
 .save-form-container {
     display: block;
-    /* flex-direction: column; */
 }
 
 .save-form-container>input {
@@ -556,9 +548,6 @@ main {
     border-radius: 5px;
     background-color: rgba(19, 19, 24, 0.05);
 }
-
-
-
 
 .save-button {
     width: 28.770vw;
@@ -583,8 +572,6 @@ main {
 
 .save-image {
     width: 100%;
-    /* max-height: 100%; */
-
 }
 
 .save-tag {
@@ -597,7 +584,6 @@ main {
     position: absolute;
     right: 0.439vw;
     bottom: 5.8vh;
-
 }
 
 .website {
@@ -765,14 +751,21 @@ main {
     color: var(--main-color);
 }
 
+/* end of lost section */
+
+/* end of main section */
+
+/* start of footer section */
+
 .footer-image-section {
     margin-top: 29px;
     display: flex;
+    gap: 15px;
     align-items: center;
     justify-content: center;
 }
 
-.footer-image-section>img{
+.footer-image-section>img {
     width: 24px;
 }
 
@@ -782,16 +775,7 @@ main {
     color: var(--black-color);
 }
 
-
-/* end of lost section */
-
-/* end of main section */
-
-/* start of footer section */
-
-
-
-
+/* end of footer section */
 
 
 
@@ -1064,34 +1048,35 @@ main {
         margin-bottom: 20px;
     }
 
-    .inspiration-card-section{
+    .inspiration-card-section {
         grid-template-columns: 1fr;
         gap: 10px;
         justify-content: center;
     }
-     
-    .inspiration-card-1{
+
+    .inspiration-card-1 {
         width: 280px;
         margin: 20px auto 0px;
     }
 
-    .inspiration-card-2{
+    .inspiration-card-2 {
         width: 290px;
         margin: 0px auto;
     }
 
 
-    .inspiration-card-3{
+    .inspiration-card-3 {
         width: 290px;
         margin: 0px auto;
     }
 
-    .inspiration-title{
+    .inspiration-title {
         font-size: 1.4rem;
         width: 200px;
         margin-bottom: 0px;
     }
-    .more{
+
+    .more {
         font-size: 1.2rem;
     }
 }
